@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(249, 243, 243);
+}
+.logo img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.nav-top-left{
+   display: flex;
+   width: 400px;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+.nav-top-left small a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-top{
+  display: flex;
+  align-items: center;
+  width: 1100px;
+}
+.nav-top-right{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 185px;
+}
+.nav-top-right img{
+    margin-top: 2px;
+    margin-right: 3px;
+    margin-left: 25px;
+}
+.nav-top-right small{
+    margin-top: 4px;
+}
+.nav-top-right small a{
+    color: rgb(87, 87, 242);
+}
+.button button{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    margin-bottom: px;
+    color: black;
+    background:  #ffbc0d;
+    border: none;
+    border-radius: 4px;
+    margin-left: 34px;
+    font-size: 15px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin-left: 60px;
+    margin-top: 23px;
+
+}
+.nav-bottom a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+/* NAV ENDS */
+
+.section-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.img-right h1{
+    margin-left: 34px;
+    font-size: 35px;
+    font-weight: 377px;
+    padding-bottom: 27px;
+}
+.img-right p{
+    margin-left: 34px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.img-right small{
+    margin-left: 34px;
+    
+}
+.img-right button{
+    margin-top: 50px;
+}
+
+/* section 1 ends */
+
+.section-2{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 110px;
+    margin-left: 60px;
+}
+.small small{
+    margin-left: px;
+}
+.section-3{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.section-4{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.section-5{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 100px;
+    margin-left: 60px;
+}
+/* footer strats */
+
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    
+}
+.footer-1{
+    width: 25%;
+    margin-left: 80px;
+}
+.footer-2{
+    width: 25%;
+}
+.footer-3{
+    width: 25%;
+}
+.footer-4{
+    width: 15%;
+}
+.footer-li ul li{
+    list-style: none;
+    padding-bottom: 6px;
+    
+}
+.footer-li ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+}
+.footer-li ul li a:hover{
+    cursor: pointer;
+}
+.footer h2{
+    padding-bottom: 17px;
+}
+.bottom-footer{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+    border-bottom: 1px solid rgb(186, 183, 183);
+}
+.app-sticker{
+    width: 40%;
+    display: flex;
+    margin-left: 10px;
+
+}
+.app-badge{
+    width: 20%;
+    display: flex;
+    margin-left: 300px;
+}
+.app-sticker a img{
+    padding-left: 15px;
+}
+.app-badge a img{
+    padding-left: 10px;
+}
+.last{
+    width: 100%;
+    height: 200px;
+
+}
+.fst-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fst-list a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.snd-list{
+    width: 40%;
+    display: flex;
+    margin-left: 32px;
+    margin-top: 20px;
+    
+}
+.snd-list a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+/* drop down */
+
+.menu-drop a{
+    position: relative;
+    display: inline-block;
+}
+.drop-down{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    /* display: flex; */
+    margin-top: 20px;
+}
+.menu-drop a:hover .drop-down{
+    display: block;
+}
+
